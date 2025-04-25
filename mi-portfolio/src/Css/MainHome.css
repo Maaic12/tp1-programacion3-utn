@@ -1,0 +1,56 @@
+li {
+    
+    margin-left: 4.5rem;
+    margin-top:1rem
+}
+
+.CardText {
+    font-weight: 600;
+}
+
+.Card {
+    text-align: left;
+    width: 20rem;
+    display: flex;
+}
+
+.CardImg {
+    padding: 0.2rem;
+    height: 20rem;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: xx-large;
+}
+
+.facebook {
+    color: #3b5998;
+}
+
+.instagram {
+    color: #E1306C;
+}
+
+.discord {
+    color: #7289DA;
+}
+
+.github {
+    color: #333;
+}
+
+.gmail {
+    color: #D44638;
+}
+
+.paypal {
+    color: #003087;
+}
+
+.youtube {
+    color: #FF0000;
+}
+

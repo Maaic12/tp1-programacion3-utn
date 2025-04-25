@@ -1,28 +1,49 @@
-import React from 'react'
-import Card from 'react-bootstrap/Card';
-import ListGroup from 'react-bootstrap/ListGroup';
+import React from "react";
+import Card from "react-bootstrap/Card";
+import "../Css/MainHome.css";
 
-const MainHome = ({nombre,apodo,edad,pais,ciudad,email,lenguajes}) => {
+const MainHome = ({nombre,apodo,edad,imagen,pais, provincia,email,lenguajes,}) => {
   return (
     <div>
-      <Card style={{ width: '18rem', textAlign: 'left' }}>
-      <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-      <Card.Body>
-        <Card.Title>{nombre}</Card.Title>
-        <Card.Text>
-          {apodo} <br />
-          {edad} <br />
-          {pais} <br />
-          {ciudad} <br />
-          {email} <br />
-          {lenguajes.map((lenguaje, index) => (
-            <li key={index}>{lenguaje}</li>
-          ))}
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </div>
-  )
-}
+      <Card className="Card">
+        <Card.Img variant="top" src={imagen} className="CardImg" />
+        <Card.Body>
+          <Card.Title className="TituloCard">{nombre}</Card.Title>
+          <Card.Text className="CardText">
+            <i>
+              apodo: {apodo} <br />
+              edad: {edad} <br />
+              pais: {pais} <br />
+              provincia: {provincia} <br />
+              email: {email}
+              <hr />
+              Lenguajes aprendidos:{" "}
+              {lenguajes.map((lenguaje, index) => (
+                <li key={index}>{lenguaje}</li>
+              ))}
+              <hr />
+              Redes: <br />
+              <div className="redes">
+            <a href="https://www.facebook.com/maaic12/" target="_blank" className="facebook">
+              <i class="bi bi-facebook"></i>
+            </a> {""}
+            <a href="https://www.instagram.com/maaic12/" className="instagram" target="_blank">
+              <i class="bi bi-instagram"></i>
+            </a> {""}
+            <a href="https://discord.gg/aRSNZfZ4" target="_blank" className="discord"><i class="bi bi-discord"></i></a> {""}
+            <a href="https://github.com/Maaic12" target="_blank" className="github"><i class="bi bi-github"></i></a> {""}
+            <a href="https://mail.google.com/mail/u/0/#all?compose=CllgCHrjDfpNpPJBgGlgbwcvfrNqgjVTtkqlpbbXRtdJrZkZpbPfGZJqZKjpsZRtSCQMdBNwXGV" target="_blank" className="gmail"><i class="bi bi-google"></i></a> {""}
+            <a href="https://paypal.me/Maaic12?country.x=AR&locale.x=es_XC" target="_blank" className="paypal"><i class="bi bi-paypal"></i></a> {""}
+            <a href="" target="_blank" className="youtube"><i class="bi bi-youtube"></i></a> 
+            </div>
+            </i>
 
-export default MainHome
+          </Card.Text>
+        </Card.Body>
+      </Card>
+      
+    </div>
+  );
+};
+
+export default MainHome;
