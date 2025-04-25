@@ -5,9 +5,10 @@ import "../Css/MainHome.css";
 const MainHome = ({nombre,apodo,edad,imagen,pais, provincia,email,lenguajes,}) => {
   return (
     <div>
+      <div className="divCard">
       <Card className="Card">
         <Card.Img variant="top" src={imagen} className="CardImg" />
-        <Card.Body>
+        <Card.Body className="CardBody">
           <Card.Title className="TituloCard">{nombre}</Card.Title>
           <Card.Text className="CardText">
             <i>
@@ -22,7 +23,9 @@ const MainHome = ({nombre,apodo,edad,imagen,pais, provincia,email,lenguajes,}) =
                 <li key={index}>{lenguaje}</li>
               ))}
               <hr />
+              <div className="divRedes">
               Redes: <br />
+              </div>
               <div className="redes">
             <a href="https://www.facebook.com/maaic12/" target="_blank" className="facebook">
               <i class="bi bi-facebook"></i>
@@ -41,7 +44,7 @@ const MainHome = ({nombre,apodo,edad,imagen,pais, provincia,email,lenguajes,}) =
           </Card.Text>
         </Card.Body>
       </Card>
-      
+      </div>
     </div>
   );
 };

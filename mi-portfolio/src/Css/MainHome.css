@@ -1,22 +1,41 @@
 li {
-    
     margin-left: 4.5rem;
-    margin-top:1rem
+    margin-top:0rem
+}
+
+.CardBody {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0rem;
+    padding-bottom: 1rem;
+}
+
+.TituloCard {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .CardText {
-    font-weight: 600;
+    font-weight: 6rem;
 }
 
 .Card {
     text-align: left;
-    width: 20rem;
+    width: 25rem;
     display: flex;
+}
+
+.divCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
 }
 
 .CardImg {
     padding: 0.2rem;
-    height: 20rem;
+    height: 25rem;
 }
 
 .redes {
@@ -54,3 +73,7 @@ li {
     color: #FF0000;
 }
 
+.divRedes {
+    text-align: center;
+    font-size: x-large;
+}
