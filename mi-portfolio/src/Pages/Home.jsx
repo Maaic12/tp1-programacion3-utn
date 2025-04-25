@@ -13,7 +13,7 @@ const Home = () => {
     pais: "Argentina",
     provincia: "Tucumán",
     email: "miguelmedinakpo@gmail.com",
-    lenguajes: ["JavaScript", "Python", "HTML", "CSS", "React", "C#"],
+    lenguajes: ["JavaScript", "Python", "HTML", "CSS", "C#"],
   };
 
   return (

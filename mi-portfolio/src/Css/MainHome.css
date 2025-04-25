@@ -1,78 +1,101 @@
 li {
-    margin-left: 4.5rem;
+  margin-left: 2rem;
+  margin-bottom: 0.5rem;
+  list-style-type: circle;
+  color: #ccc;
+  font-size: 1rem;
 }
 
 .CardBody {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0rem;
-    padding-bottom: 1rem;
+  padding: 1rem;
+  background-color: #2f2f2f;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .TituloCard {
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #fdfdfd;
+  font-weight: bold;
 }
 
 .CardText {
-    font-weight: 6rem;
+  font-weight: 600;
+  line-height: 1.6;
+  font-size: 1rem;
+  color: #ddd;
 }
 
 .Card {
-    text-align: left;
-    width: 25rem;
-    display: flex;
+  text-align: left;
+  width: 100%;
+  max-width: 22rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  box-shadow: 0px 4px 12px rgba(170, 153, 153, 0.4);
+  overflow: hidden; /*Este comando me ocultará todo lo que sobresalga del contenedor, guardar*/
+  background-color: #ffffff;
 }
 
 .divCard {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0rem;
 }
 
 .CardImg {
-    padding: 0.2rem;
-    height: 20rem;
+  padding: 0;
+  height: 20rem;
+  width: 100%;
+  border-bottom: 3px solid #000000;
 }
 
 .redes {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 1rem;
-    font-size: xx-large;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+  font-size: 2rem;
+  text-shadow: 0px 4px 12px rgb(0, 0, 0);
+}
+
+.redes a {
+    transition: transform 0.2s ease;
+}
+
+.redes a:hover {
+    transform: scale(1.2);
+    opacity: 0.9;
 }
 
 .facebook {
     color: #3b5998;
 }
-
 .instagram {
-    color: #E1306C;
+    color: #e1306c;
 }
-
 .discord {
-    color: #7289DA;
+    color: #7289da;
 }
-
 .github {
     color: #333;
 }
-
 .gmail {
-    color: #D44638;
+    color: #d44638;
 }
-
 .paypal {
     color: #003087;
 }
-
 .youtube {
-    color: #FF0000;
+    color: #ff0000;
 }
 
 .divRedes {
     text-align: center;
-    font-size: x-large;
+    font-size: 1.4rem;
+    color: #ddd;
+    margin-bottom: -1.4rem;
 }
