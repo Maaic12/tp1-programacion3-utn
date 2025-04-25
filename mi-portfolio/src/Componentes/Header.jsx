@@ -3,7 +3,8 @@ import React from 'react'
 const Header = () => {
   return (
     <div>
-      a
+      <h1>Portfolio Miguel Medina</h1>
+      <hr />
     </div>
   )
 }
