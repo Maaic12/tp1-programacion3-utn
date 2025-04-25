@@ -37,7 +37,7 @@ const MainHome = ({nombre,apodo,edad,imagen,pais, provincia,email,lenguajes,}) =
             <a href="https://github.com/Maaic12" target="_blank" className="github"><i class="bi bi-github"></i></a> {""}
             <a href="https://mail.google.com/mail/u/0/#all?compose=CllgCHrjDfpNpPJBgGlgbwcvfrNqgjVTtkqlpbbXRtdJrZkZpbPfGZJqZKjpsZRtSCQMdBNwXGV" target="_blank" className="gmail"><i class="bi bi-google"></i></a> {""}
             <a href="https://paypal.me/Maaic12?country.x=AR&locale.x=es_XC" target="_blank" className="paypal"><i class="bi bi-paypal"></i></a> {""}
-            <a href="" target="_blank" className="youtube"><i class="bi bi-youtube"></i></a> 
+            <a href="https://www.youtube.com/@Maic1209" target="_blank" className="youtube"><i class="bi bi-youtube"></i></a> 
             </div>
             </i>
 
