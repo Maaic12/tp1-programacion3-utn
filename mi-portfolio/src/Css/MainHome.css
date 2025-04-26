@@ -37,6 +37,7 @@ li {
   box-shadow: 0px 4px 12px rgba(170, 153, 153, 0.4);
   overflow: hidden; /*Este comando me ocultará todo lo que sobresalga del contenedor, guardar*/
   background-color: #ffffff;
+  text-shadow: 0px 4px 12px rgb(0, 0, 0);
 }
 
 .divCard {
@@ -81,7 +82,7 @@ li {
     color: #7289da;
 }
 .github {
-    color: #333;
+    color: #000000;
 }
 .gmail {
     color: #d44638;

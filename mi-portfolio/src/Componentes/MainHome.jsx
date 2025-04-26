@@ -21,11 +21,11 @@ const MainHome = ({
           <Card.Body className="CardBody">
             <Card.Title className="TituloCard">{nombre}</Card.Title>
             <Card.Text className="CardText">
-              apodo: {apodo} <br />
-              edad: {edad} <br />
-              pais: {pais} <br />
-              provincia: {provincia} <br />
-              email: {email}
+              Apodo: {apodo} <br />
+              Edad: {edad} <br />
+              Pais: {pais} <br />
+              Provincia: {provincia} <br />
+              Email: {email}
               <hr />
               Lenguajes aprendidos:{" "}
               {lenguajes.map((lenguaje, index) => (
